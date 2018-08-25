@@ -1,0 +1,3 @@
+export const FETCH_ORDER_LIST = 'FETCH_ORDER_LIST'
+export const SWITCH_TAB = 'SWITCH_TAB'
+
