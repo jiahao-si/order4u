@@ -15,10 +15,12 @@ redux + react + typescript + webpack
 ### build 文件
     npm run build
 
-##相关资料
+## 相关资料
 
 - typescript https://www.cnblogs.com/dhcn/p/7722248.html
 - typescript types search  http://definitelytyped.org/
 - @types package search page https://microsoft.github.io/TypeSearch/
 - prettier https://prettier.io/
+- react-router https://reacttraining.com/react-router/web/example/basic
+- ant-design https://ant.design/docs/react/introduce
  

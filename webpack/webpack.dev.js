@@ -38,5 +38,11 @@ module.exports = {
             "lib":  path.resolve(__dirname, "../lib/")
         }
     },
+    babel: {
+        presets: ['es2015', 'stage-0', 'react'],
+        plugins: [
+            ["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }] // `style: true` for less
+          ]
+    },
     externals: externals
 };

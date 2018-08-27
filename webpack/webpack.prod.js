@@ -51,5 +51,12 @@ module.exports = {
             console.log(line);
         })
     ],
+    babel: {
+        presets: ['es2015', 'stage-0', 'react'],
+        "plugins": [
+            ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }] // `style: true` for less
+          ]
+    },
+    
     externals: externals
 };
